@@ -1,0 +1,32 @@
+---
+abstract: 'making Crypt::DH installable'
+author:
+  - 'Chris Williams'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  Test::More: 0.47
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 0.91'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: AAAA-Crypt-DH
+no_index:
+  directory:
+    - inc
+    - t
+provides:
+  AAAA::Crypt::DH:
+    file: lib/AAAA/Crypt/DH.pm
+    version: 0.02
+requires:
+  Math::BigInt::GMP: 1.24
+  perl: 5.6.0
+resources:
+  homepage: http://github.com/bingos/aaaa-crypt-dh/tree
+  license: http://dev.perl.org/licenses/
+  repository: git://github.com/bingos/aaaa-crypt-dh.git
+version: 0.02
